@@ -19,4 +19,7 @@ Components
 
 - npm i tsup -D (to convert this project into a javascript package that can be added to other projects(the built in conversion is limited))
 
-- ("/react" folder) npm i -D react @types/react @types/react-dom (react, -D as development dependency)
+# ./react
+
+- npm i -D react @types/react @types/react-dom (react, -D as development dependency)
+- npm i @stitches/react
