@@ -19,6 +19,12 @@ Components
 
 - npm i tsup -D (to convert this project into a javascript package that can be added to other projects(the built in conversion is limited))
 
+# ./docs
+
+- npx sb init --builder @storybook/builder-vite --type react (storybook documentation)
+- npm i vite @vitejs/plugin-react -D
+- npm i react react-dom
+
 # ./react
 
 - npm i -D react @types/react @types/react-dom (react, -D as development dependency)
