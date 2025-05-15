@@ -24,6 +24,7 @@ Components
 - npx sb init --builder @storybook/builder-vite --type react (storybook documentation)
 - npm i vite @vitejs/plugin-react -D
 - npm i react react-dom
+- npm i polished (for working with colors)
 
 # ./react
 
