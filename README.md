@@ -18,6 +18,7 @@ Components
 ## Packages installed
 
 - npm i tsup -D (to convert this project into a javascript package that can be added to other projects(the built in conversion is limited))
+- npm i turbo@latest -D (TurboRepo, will run all "dev" scripts in parallel)
 
 # ./docs
 
