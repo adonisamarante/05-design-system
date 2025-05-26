@@ -31,3 +31,5 @@ Components
 
 - npm i -D react @types/react @types/react-dom (react, -D as development dependency)
 - npm i @stitches/react
+- npm install @radix-ui/react-avatar
+- npm i phosphor-react
