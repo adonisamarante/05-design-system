@@ -26,10 +26,11 @@ Components
 - npm i vite @vitejs/plugin-react -D
 - npm i react react-dom
 - npm i polished (for working with colors)
+- npm i phosphor-react (icons)
 
 # ./react
 
 - npm i -D react @types/react @types/react-dom (react, -D as development dependency)
 - npm i @stitches/react
 - npm install @radix-ui/react-avatar
-- npm i phosphor-react
+- npm i phosphor-react (icons)
