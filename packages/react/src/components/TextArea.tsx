@@ -30,4 +30,7 @@ export const TextArea = styled('textarea', {
   },
 })
 
-export interface TextAreaProps extends Component<typeof TextArea> {}
+export interface TextAreaProps extends Component<typeof TextArea> {
+  disabled?: boolean
+  placeholder?: string
+}
