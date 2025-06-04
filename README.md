@@ -34,3 +34,4 @@ Components
 - npm i @stitches/react
 - npm install @radix-ui/react-avatar
 - npm i phosphor-react (icons)
+- npm install @radix-ui/react-checkbox
