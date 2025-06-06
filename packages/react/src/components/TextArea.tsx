@@ -34,3 +34,5 @@ export interface TextAreaProps extends Component<typeof TextArea> {
   disabled?: boolean
   placeholder?: string
 }
+
+TextArea.displayName = 'TextArea'

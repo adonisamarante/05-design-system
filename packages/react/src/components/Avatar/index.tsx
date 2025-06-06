@@ -20,3 +20,6 @@ export function Avatar(props: AvatarProps) {
     </>
   )
 }
+
+// displayName will show the component's name in Storybook and React DevTools
+Avatar.displayName = 'Avatar'
