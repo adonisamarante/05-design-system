@@ -22,6 +22,7 @@
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "@ignite-ui/eslint-config": "*",
+    "@storybook/addon-a11y": "^7.6.10",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/blocks": "^7.6.10",
