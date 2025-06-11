@@ -28,6 +28,7 @@ Components
 - npm i polished (for working with colors)
 - npm i phosphor-react (icons)
 - npm install -D @storybook/addon-a11y@7.6.10 (accessibility addon)
+- npm i @storybook/storybook-deployer --save-dev
 
 # ./react
 
