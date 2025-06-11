@@ -24,5 +24,5 @@ jobs:
       - name: Deploy storybook
         working-directory: ./packages/docs
         env:
-          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
