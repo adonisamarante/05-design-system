@@ -23,6 +23,9 @@ jobs:
         run: rm -rf packages/docs/storybook-static
       
       - run: npm run build
+        env:
+          TURBO_TOKEN: kqTQKsfG2KWDh9WSdD93lNxW
+          TURBO_TEAM: 'adonis-amarantes-projects'
 
       - name: Deploy storybook
         working-directory: ./packages/docs
