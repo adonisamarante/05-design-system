@@ -5,6 +5,6 @@ export const Tooltip = styled('div', {
   padding: '$4 $3',
 })
 
-export interface TextProps extends ComponentProps<typeof Tooltip> {}
+export interface TooltipProps extends ComponentProps<typeof Tooltip> {}
 
-Tooltip.displayName = 'Text'
+Tooltip.displayName = 'Tooltip'
