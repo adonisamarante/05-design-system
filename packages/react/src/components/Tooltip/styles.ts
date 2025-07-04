@@ -2,6 +2,7 @@ import { styled } from '../../styles'
 
 export const TooltipContainer = styled('div', {
   width: 'max-content',
+  backgroundColor: 'transparent',
 
   display: 'flex',
   flexDirection: 'column',
