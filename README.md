@@ -1,14 +1,22 @@
+## Design System
+
+Design system project created during the react formation course by Rocketseat
+
+#
+
 Components
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box
-- [ ] Button
-- [ ] TextInput
-- [ ] TextArea
-- [ ] Checkbox
-- [ ] Avatar
-- [ ] MultiStep
+- Text
+- Heading
+- Box
+- Button
+- TextInput
+- TextArea
+- Checkbox
+- Avatar
+- MultiStep
+
+#
 
 - npm init -y (to create package.json in the tokens folder(change the "name" attribute to '@ignite-ui/tokens', the name of the organization first is a good practice))
 - npm i -D typescript (installing typescript will create the 'package-lock.json' file and node_modules folder)
@@ -37,4 +45,5 @@ Components
 - npm i @stitches/react
 - npm install @radix-ui/react-avatar
 - npm i phosphor-react (icons)
+
 - npm install @radix-ui/react-checkbox
