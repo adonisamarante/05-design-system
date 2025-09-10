@@ -15,6 +15,8 @@ Components
 - Checkbox
 - Avatar
 - MultiStep
+- Tooltip
+- Toast
 
 #
 
