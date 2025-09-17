@@ -1,22 +1,49 @@
 import { styled } from '../../styles'
 
 export const ToastContainer = styled('div', {
-  width: 'max-content',
-  backgroundColor: 'transparent',
+  width: '22.5rem',
+  backgroundColor: '$gray800',
+  border: '1px solid $gray600',
+  borderRadius: '$sm',
+  padding: '$3 $5',
+
+  position: 'relative',
 
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center',
+  gap: '$1',
 })
 
-export const ToastContent = styled('div', {
-  display: 'inline-flex',
+export const ToastClose = styled('button', {
+  backgroundColor: '$gray800',
+  border: 'none',
+  padding: 'unset',
 
-  padding: '$3 $4',
-  backgroundColor: '$gray900',
-  borderRadius: 16,
+  position: 'absolute',
+  top: '$4',
+  right: '$4',
 
-  color: '$gray100',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+
+  '&:hover': {
+    cursor: 'pointer',
+  },
+})
+
+export const ToastTitle = styled('span', {
+  color: '$white',
+  fontSize: '$xl',
   fontFamily: '$default',
-  fontWeight: '$medium',
+  fontWeight: '$bold',
+  lineHeight: '$base',
+})
+
+export const ToastDescription = styled('span', {
+  color: '$gray200',
+  fontSize: '$sm',
+  fontFamily: '$default',
+  fontWeight: '$regular',
+  lineHeight: '$base',
 })
