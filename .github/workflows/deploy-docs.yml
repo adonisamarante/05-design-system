@@ -29,6 +29,9 @@ jobs:
           TURBO_TOKEN: kqTQKsfG2KWDh9WSdD93lNxW
           TURBO_TEAM: 'adonis-amarantes-projects'
 
+      - name: Add .nojekyll
+        run: touch packages/docs/storybook-static/.nojekyll
+
       - name: Deploy storybook
         working-directory: ./packages/docs
         env:
