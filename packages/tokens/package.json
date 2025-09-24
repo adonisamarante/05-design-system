@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@adonis-ignite-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -15,8 +15,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@adonis-ignite-ui/eslint-config": "*",
+    "@adonis-ignite-ui/ts-config": "*",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3"
   }
