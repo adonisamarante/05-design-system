@@ -20,7 +20,7 @@ Components
 
 #
 
-- npm init -y (to create package.json in the tokens folder(change the "name" attribute to '@ignite-ui/tokens', the name of the organization first is a good practice))
+- npm init -y (to create package.json in the tokens folder(change the "name" attribute to '@adonis-ignite-ui/tokens', the name of the organization first is a good practice))
 - npm i -D typescript (installing typescript will create the 'package-lock.json' file and node_modules folder)
 - npx tsc --init (will create the tsconfig.json)
 
