@@ -1,0 +1,1 @@
+import{t as e}from"./chunk-ZGA76URP-DMtjR-D7.js";const a={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{theme:e.dark},backgrounds:{default:"dark"}}};export{a as default};
